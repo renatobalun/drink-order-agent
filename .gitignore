@@ -1,0 +1,109 @@
+############################
+# Python
+############################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+data
+
+############################
+# Virtual environments
+############################
+venv/
+.env/
+.env.*
+.venv/
+
+############################
+# Environment / secrets
+############################
+.env
+.env.local
+.env.dev
+.env.prod
+
+############################
+# Alembic
+############################
+alembic/versions/__pycache__/
+alembic/*.log
+
+# (NE ignorirati alembic/versions/*.py !!!)
+# Migracije MORAJU u git
+
+############################
+# Databases / local data
+############################
+*.db
+*.sqlite
+*.sqlite3
+
+############################
+# Generated PDFs
+############################
+*.pdf
+output_pdfs/
+generated_pdfs/
+exports/
+
+############################
+# OCR temp files / uploads
+############################
+uploads/
+tmp/
+temp/
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.bmp
+
+############################
+# Logs
+############################
+*.log
+logs/
+
+############################
+# IDEs / Editors
+############################
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+############################
+# OS files
+############################
+Thumbs.db
+
+############################
+# Node (ako imaš frontend / build)
+############################
+node_modules/
+dist/
+build/
+
+############################
+# Testing / coverage
+############################
+.coverage
+htmlcov/
+.pytest_cache/
+
+############################
+# LangChain / LangGraph cache
+############################
+.langchain_cache/
+.langgraph_cache/
+
+############################
+# Misc
+############################
+.cache/
